@@ -1,0 +1,145 @@
+/* ����ͼ�� �Ѽ����� www.lanrentuku.com */
+#foucsBox {
+	margin: 0 auto;
+	padding: 0;
+	width: 747px;
+	height: 459px;
+	overflow: hidden;
+	zoom: 1;
+	position: relative;
+}
+.imgCon li img{
+	width: 747px;
+	height: 459px;
+}
+
+#foucsBox .imgCon {
+	width: 747px;
+	height: 459px;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	list-style: none;
+}
+
+#foucsBox .imgCon li {
+	float: left;
+	width: 747px;
+	height: 459px;
+}
+
+#foucsBox .imgCon li img {
+	border: 0;
+}
+#foucsBox .imgCon li .imgTitle {
+	width: 600px;
+	position: absolute;
+	bottom: 13px;
+	z-index: 4;
+	margin-left: 20px;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+#foucsBox .imgCon li .imgTitle a {
+	color: #fff;
+	display: block;
+	text-decoration: none;
+	font-weight: bolder;
+	letter-spacing: 0.1px;
+	font-size: 1.5px;
+	zoom: 11;
+}
+
+#foucsBox .showPage {
+	width: 747px;
+	height: 50px;
+	position:absolute;
+	background: #000;
+	opacity: 0.7;
+	bottom: 0;
+	filter: alpha(opacity=70);
+	z-index: 1;
+}
+
+#foucsBox .foucs {
+	width: 100px;
+	height: 22px;
+	position: absolute;
+	bottom: 10px;
+	text-align:right;
+	z-index: 4;
+	right:20px;
+}
+
+#foucsBox .foucs span {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	margin: 0 5px;
+	line-height: 0;
+	font-size: 0;
+	background: #ffffff;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+#foucsBox .foucs span.f {
+	background:#81d043;
+}
+
+#foucsBox .foucsButton {
+	width: 40px;
+	height: 56px;
+	padding: 10px;
+	margin-top: -70px;
+	position: relative;
+	z-index: 4;
+}
+
+#foucsBox .foucsButton span {
+	display: inline;
+	width: 23px;
+	height: 45px;
+	margin: 7px 5px 0;
+	cursor: pointer;
+	overflow: hidden;
+	background: url(../images/bg.png) 0 0 no-repeat;
+}
+
+#foucsBox .foucsButton img {
+	display: none;
+	cursor: pointer;
+	border-width: 0px;
+	vertical-align: middle;
+	width: 100px;
+	height: 56px;
+}
+
+#foucsBox .lBtn {
+	float: left;
+}
+
+#foucsBox .lBtn span {
+	float: left;
+	background-position: 0 -90px;
+}
+
+#foucsBox .rBtn {
+	float: right;
+}
+
+#foucsBox .rBtn span {
+	float: right;
+	background-position: -30px -90px;
+}
+
+#foucsBox .btnHover {
+	width: 146px;
+	background: #408ED6;
+	overflow: hidden;
+}
+
+#foucsBox .btnHover img {
+	display: inline;
+}

@@ -1,0 +1,1 @@
+﻿document.write("<a href='http://www.ditan360.com/Zhuanti/TempLvFH/?SpecialsID=1276' target='_blank' ><img src='/ulfile/adjspic/adjs2018030110412392315557.jpg' border='0'  width='1190' height='160' /></a>");

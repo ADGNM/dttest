@@ -1,0 +1,103 @@
+@charset 'utf-8';
+
+/* 传媒之声 --------------------------------------------------*/
+
+.partMedia {
+    height: 60px;
+}
+
+#zxjk {
+    float: left;
+    width: 367px;
+    height: 60px;
+    background:url(../images/20161020zxcm.png) 0 6px no-repeat;
+    overflow: hidden;
+    position: relative;
+}
+
+#zxjk .title {
+    float: left;
+    height: 50px;
+    line-height: 16px;
+    padding: 16px 0 0 25px;
+    font-size: 16px;
+    font-family: \5FAE\8F6F\96C5\9ED1;
+    color: #17600c;
+}
+
+#zxjk .title span {
+    color: #fea348;
+    font-size: 12px;
+    font-family: \5FAE\8F6F\96C5\9ED1;
+}
+
+#zxjk .mediaList {
+    float: left;
+    width: 300px;
+    height: 120px;
+}
+
+#zxjk .mediaList li {
+    padding-top: 2px;
+    vertical-align: top;
+}
+
+#zxjk .mediaList li p {
+	font-size:12px;
+    float: left;
+    height:28px;
+    overflow:hidden;
+    color:#0f588b;
+    padding-left:5%;
+    padding-right:1%;
+}
+
+#zxjk .mediaList li a {
+    line-height: 28px;
+    color: #3e3e3e;
+}
+
+#zxjk .btn {
+    width: 30px;
+    height: 20px;
+    position: absolute;
+    z-index: 1;
+    right: 0px;
+    cursor: pointer;
+}
+
+#zxjk .btn i {
+    width: 0;
+    height: 0;
+    line-height: 0px;
+    font-size: 0px;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    _border-bottom: 6px solid dashed;
+    _border-top: 6px solid dashed;
+    position: absolute;
+    left: 50%;
+    margin-left: -8px;
+    overflow: hidden;
+}
+
+#zxjk .btnPrev {
+    right: 0px;
+    top: 6px;
+}
+
+#zxjk .btnPrev i {
+    border-bottom: 6px solid #a9a9a9;
+    top: 6px;
+}
+
+#zxjk .btnNext {
+    right: 0px;
+    bottom: 6px;
+}
+
+#zxjk .btnNext i {
+    border-top: 6px solid #a9a9a9;
+    bottom: 4px;
+}
+

@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* 通用图片列表_普通式 */
+.picList li, .picList1 li{ width:215px;line-height:0px;position: relative; left: -26px;}
+.picList .pic img, .picList1 .pic img{ width:215px; height:136px; position:absolute;}
+.picList .pic a:hover img, .picList1 .pic a:hover img{ border-color:#f00;  }
+.picList .title, .picList1 .title{ line-height:24px; }
+.picList li a .img, .picList1 li a .img{
+	width: 215px;
+	height: 136px;
+	position:absolute;	
+}
+.picList li a img, .picList1 li a img{
+	width: 215px;
+	height: 136px;
+	transition: 1s;
+}
+.picList li a span, .picList1 li a span{
+	width:215px;
+	overflow: hidden;
+	background:rgba(22,112,12,0.8);
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+	position: absolute;
+	left: 0;
+	color:#FFFFFF;
+	padding: 12px 0;
+	font-size:12px ;
+	top: 115px;	
+}
+.picList li a:hover span, .picList1 li a:hover span{
+background: rgba(22,112,12,0.85);
+opacity: 0.85;
+filter: alpha(opacity=0.85);
+}
+.picList li a:hover img, .picList1 li a:hover img{
+transform: scale(1.1);
+transition: 1s;
+}
+/* 多个左滚动 - 图片- 公用类 */
+.leftLoop, .leftLoop1{ overflow:hidden; position:relative;  }
+.leftLoop .hd{ overflow:hidden;  height:30px;}
+.leftLoop .prev, .leftLoop .next{ display:block;  width:30px; height:136px; line-height:10px; overflow:hidden;  
+	 cursor:pointer; position: absolute; z-index: 10;}
+.leftLoop .prev{background:url(../images/icoLeft.jpg) no-repeat center; filter: alpha(opacity=0); opacity: 0; transition: 1s; left: 1px;}
+.leftLoop .next{ background:url(../images/icoRight.jpg) no-repeat center;filter: alpha(opacity=0); opacity: 0; transition: 1s; left: 1159px;}
+.leftLoop .prev:hover{filter: alpha(opacity=60); opacity: 0.6; transition: 1s;}
+.leftLoop .next:hover{float: right;filter: alpha(opacity=60); opacity: 0.6; transition: 1s;}
+.leftLoop .hd ul, .leftLoop1 .hd1 ul{ float:right; overflow:hidden; zoom:1; margin-top:10px;  }
+.leftLoop .hd ul li, .leftLoop1 .hd1 ul li{ position:relative; _display:inline; float:left;  width:21px;height: 6px; overflow:hidden;  margin-right:10px; text-indent:-999px; cursor:pointer;
+	-webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; behavior: url(../PIE.htc);  background: url(../images/dt.01_15.jpg) no-repeat; background-position: 50% 0;}
+.leftLoop .hd ul li.on, .leftLoop1 .hd1 ul li.on{ background:green; height: 4px;}
+.leftLoop .bd ul, .leftLoop1 .bd1 ul{ overflow:hidden; zoom:1; }
+.leftLoop .bd ul li, .leftLoop1 .bd1 ul li{margin-left: 28px; text-align:center; float:left; _display:inline; overflow:hidden;  }

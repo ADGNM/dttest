@@ -1,0 +1,15 @@
+﻿@charset "utf-8";
+/* 清除浮动 */
+body{font-family: "宋体", Arial, Helvetica, sans-serif;}
+a{text-decoration: none; }
+.clearfix { display: block; #zoom:1;/*ie6-ie7*/}
+.clearfix:after { content: ''; overflow: hidden; width: 367px; height: 0px; font-size: 0px; margin: 0px; padding: 0px; display: block; clear: both; }
+/* 数据列表样式01 */
+.borderCont .dataList01{margin-left: -8px; margin-top: 16px;}
+.dataList01 { padding-bottom: 7px; overflow: hidden; padding-left: 0; }
+.dataList01 li { height: 22px; margin-bottom: 11px; overflow: hidden; vertical-align: top;width: 367px;}
+.dataList01 li a { /*display: inline-block;height: 16px;*/ line-height: 22px; /*margin-right: 4px;*/ vertical-align: top; color: #393939;
+text-indent: 0; font-size: 14px;}
+.dataList01 li a .icon {#margin-right: 4px; position: relative; top: -2px\9; top: -2px\0; #top:0px;}
+.dataList01 li.first a { font-weight: bold; }
+.dataList01 li a:hover{color: #16700c;}
